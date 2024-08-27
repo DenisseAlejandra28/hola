@@ -10,3 +10,5 @@ def miau(n):
 def obtener_numero():
     while True:
         n = int(input("ingresa un valor n mayor que 0"))   
+        if n > 0:
+            return n 
